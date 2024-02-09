@@ -5,6 +5,8 @@ VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FIV", "FIV.vcxproj", "{BA489399-FB8C-4F06-ADE4-8886D5F9CEAF}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "..\Setup\Setup.vdproj", "{6F0EBCF1-3A35-46F6-BED9-C10FDB142D5E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -13,14 +15,18 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{BA489399-FB8C-4F06-ADE4-8886D5F9CEAF}.Debug|x64.ActiveCfg = Debug|x64
-		{BA489399-FB8C-4F06-ADE4-8886D5F9CEAF}.Debug|x64.Build.0 = Debug|x64
+		{BA489399-FB8C-4F06-ADE4-8886D5F9CEAF}.Debug|x64.ActiveCfg = Release|x64
+		{BA489399-FB8C-4F06-ADE4-8886D5F9CEAF}.Debug|x64.Build.0 = Release|x64
 		{BA489399-FB8C-4F06-ADE4-8886D5F9CEAF}.Debug|x86.ActiveCfg = Debug|Win32
 		{BA489399-FB8C-4F06-ADE4-8886D5F9CEAF}.Debug|x86.Build.0 = Debug|Win32
 		{BA489399-FB8C-4F06-ADE4-8886D5F9CEAF}.Release|x64.ActiveCfg = Release|x64
 		{BA489399-FB8C-4F06-ADE4-8886D5F9CEAF}.Release|x64.Build.0 = Release|x64
 		{BA489399-FB8C-4F06-ADE4-8886D5F9CEAF}.Release|x86.ActiveCfg = Release|Win32
 		{BA489399-FB8C-4F06-ADE4-8886D5F9CEAF}.Release|x86.Build.0 = Release|Win32
+		{6F0EBCF1-3A35-46F6-BED9-C10FDB142D5E}.Debug|x64.ActiveCfg = Release
+		{6F0EBCF1-3A35-46F6-BED9-C10FDB142D5E}.Debug|x86.ActiveCfg = Debug
+		{6F0EBCF1-3A35-46F6-BED9-C10FDB142D5E}.Release|x64.ActiveCfg = Release
+		{6F0EBCF1-3A35-46F6-BED9-C10FDB142D5E}.Release|x86.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

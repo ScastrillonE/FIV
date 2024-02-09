@@ -1,8 +1,6 @@
 ﻿  FIV.cpp
-C:\Users\SISTEMAS2\OneDrive - GRUPO ALTEA SAS\Desktop\FIVFINAL\FIV\FIV.cpp(42,44): warning C4312: 'conversión de tipo': conversión de 'DWORD' a 'FTR_PARAM_VALUE' de mayor tamaño
-C:\Users\SISTEMAS2\OneDrive - GRUPO ALTEA SAS\Desktop\FIVFINAL\FIV\FIV.cpp(81,16): warning C4244: 'argumento': conversión de 'SOCKET' a 'int'; posible pérdida de datos
-C:\Users\SISTEMAS2\OneDrive - GRUPO ALTEA SAS\Desktop\FIVFINAL\FIV\FIV.cpp(153,56): warning C4312: 'conversión de tipo': conversión de 'DWORD' a 'FTR_PARAM_VALUE' de mayor tamaño
-C:\Users\SISTEMAS2\OneDrive - GRUPO ALTEA SAS\Desktop\FIVFINAL\FIV\FIV.cpp(223,24): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
-  FIV.vcxproj -> C:\Users\SISTEMAS2\OneDrive - GRUPO ALTEA SAS\Desktop\FIVFINAL\FIV\x64\Debug\FIV.exe
-  "pwsh.exe" no se reconoce como un comando interno o externo,
-  programa o archivo por lotes ejecutable.
+C:\programming_codes\FIV\FIV.cpp(42,44): warning C4312: 'conversión de tipo': conversión de 'DWORD' a 'FTR_PARAM_VALUE' de mayor tamaño
+C:\programming_codes\FIV\FIV.cpp(81,16): warning C4244: 'argumento': conversión de 'SOCKET' a 'int'; posible pérdida de datos
+C:\programming_codes\FIV\FIV.cpp(153,56): warning C4312: 'conversión de tipo': conversión de 'DWORD' a 'FTR_PARAM_VALUE' de mayor tamaño
+C:\programming_codes\FIV\FIV.cpp(223,24): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+  FIV.vcxproj -> C:\programming_codes\FIV\x64\Debug\FIV.exe

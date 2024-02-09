@@ -114,21 +114,34 @@ int main() {
 
         string mensaje = "NADA";
         cout << "Request: " << request << endl;
-
+        cout << flush;
+        
         if (request == "enroll") {
             captureFingerprint();
             int size = newFingerprintTemplate.dwSize;
+            if (newFingerprintTemplate.pData != NULL && newFingerprintTemplate.dwSize > 0) {
 
-            // Envía puntero 
-            send(clientSocket,
-                (char*)newFingerprintTemplate.pData,
-                size, 0);
-            system("cls");
+                // Envía puntero 
+                send(clientSocket,
+                    (char*)newFingerprintTemplate.pData,
+                    size, 0);
+                system("cls");
+
+            }
+            else {
+
+                // Template inválido, notifica error
+                //...
+
+            }
+
+            
 
         }
         else if (request == "verify") {
             DWORD value = FSD_FUTRONIC_USB;
             printf("Proceso de verificacion\n");
+            cout << flush;
             // Buffer para recibir template
             byte* buffer = new byte[16000];
 
@@ -158,11 +171,12 @@ int main() {
                 FTRGetParam(FTR_PARAM_IMAGE_SIZE, &frameSize);
                 // Función de callback  
                 FTRSetParam(FTR_PARAM_CB_CONTROL, OnStateControl);
+                cout << flush;
                 FTRAPI_RESULT result = FTRVerify(NULL,
                     &existingTemplate,
                     &vResult,
                     &match);
-
+                cout << flush;
 
                 if (result != FTR_RETCODE_OK) {
                     cout << "Error en FTRVerify: " << result << endl;

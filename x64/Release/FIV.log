@@ -1,0 +1,10 @@
+﻿  FIV.cpp
+C:\programming_codes\FIV\FIV.cpp(42,44): warning C4312: 'conversión de tipo': conversión de 'DWORD' a 'FTR_PARAM_VALUE' de mayor tamaño
+C:\programming_codes\FIV\FIV.cpp(81,16): warning C4244: 'argumento': conversión de 'SOCKET' a 'int'; posible pérdida de datos
+C:\programming_codes\FIV\FIV.cpp(166,56): warning C4312: 'conversión de tipo': conversión de 'DWORD' a 'FTR_PARAM_VALUE' de mayor tamaño
+C:\programming_codes\FIV\FIV.cpp(237,24): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+  Generando código
+  Previous IPDB not found, fall back to full compilation.
+  All 90 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Generación de código finalizada
+  FIV.vcxproj -> C:\programming_codes\FIV\x64\Release\FIV.exe
